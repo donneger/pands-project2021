@@ -6,7 +6,7 @@
 
  
 
-Introduction 
+# Introduction 
 
 This project is in fulfillment of the course requirements for GMIT Programming and Scripting 2021, a module of the HDip in Data Analytics.  
 
