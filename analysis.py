@@ -29,7 +29,7 @@ irisdf = pd.read_csv(irisdata, names=['Sepal_Length', 'Sepal_Width' , 'Petal_Len
 #https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html
 
 #Summarise the data set and transpose for readibility
-datasummary = (irisdf.describe()).transpose()
+datasummary = (irisdf.describe()).transpose().round(4)
 datahead = (irisdf.head(5))
 datatail = irisdf.tail(5)
 
@@ -47,12 +47,12 @@ datatail.to_csv(r'tables/datatail.csv')
 
 # Set up the variables to hold the basic statistical characteristicsa of the dataset, grouped by Iris species. 
 classcount = irisdf.groupby('Class').count()
-classmean = irisdf.groupby('Class').mean()
-classmax = irisdf.groupby('Class').max()
-classmin = irisdf.groupby('Class').min()
-classmedian = irisdf.groupby('Class').median()
-classstd = irisdf.groupby('Class').std()
-classcor= irisdf.corr()
+classmean = irisdf.groupby('Class').mean().round(4)
+classmax = irisdf.groupby('Class').max().round(4)
+classmin = irisdf.groupby('Class').min().round(4)
+classmedian = irisdf.groupby('Class').median().round(4)
+classstd = irisdf.groupby('Class').std().round(4)
+classcor= irisdf.corr().round(4)
 
 # Output the resulting details to csv files. 
 classcount.to_csv(r'tables/classcount.csv')
