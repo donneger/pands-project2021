@@ -1,12 +1,5 @@
-						An Investigation into Fishers Iris Data set utilising Python.  
-
-							GMIT - Programming and Scripting 2021 
-
-								  Author: Gerard Donnelly
-								         April 2021
-
- 
-
+# An Investigation into Fishers Iris Data set utilising Python.  
+					
 # Introduction 
 This project is in fulfillment of the course requirements for GMIT Programming and Scripting 2021, a module of the HDip in Data Analytics.  
 
@@ -40,6 +33,9 @@ The dataset itself is widely available, in this case I have used the dataset fro
 - Iris Setosa 
 - Iris Versicolour 
 - Iris Virginica 
+
+<img width="1200" height="400" src="Images/irisimage.png">
+
 
 ## Python 
 This project utilises 4 Python libraries, namely: 
@@ -90,15 +86,16 @@ The standard deviation is a measure of the amount of variation or dispersion of 
 classcor= irisdf.corr() 
 Correlation measures the extent to which there is a correlation, causal or not, between 2 	variables.  
 
+https://github.com/donneger/pands-project2021/blob/main/tables/classcorr.csv
 
 # Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
 
 <img width="1200" height="800" src="plots/boxplots_species.png">
 
-<img width="946" height="800" src="plots/histcompare_petalL_petalW.png">
+<img width="946" height="500" src="plots/histcompare_petalL_petalW.png">
 
-<img width="946" height="800" src="plots/histcompare_sepalL_sepalW.png">
+<img width="946" height="500" src="plots/histcompare_sepalL_sepalW.png">
 
 <img width="900" height="300" src="plots/histpetalLen_species.png">
 
@@ -117,3 +114,22 @@ This program produces a number of plots to provide a more comprehensive visual o
 <img width="900" height="300" src="plots/regression_Sepal_length_width.png">
 
 <img width="900" height="300" src="plots/regression_width_Petal_Sepal.png">
+
+# References
+
+|              | Sepal_Length         | Sepal_Width          | Petal_Length         | Petal_Width         |
+| ------------ | -------------------- | -------------------- | -------------------- | ------------------- |
+| Sepal_Length | 1.0                  | -0.10936924995064935 | 0.8717541573048719   | 0.8179536333691635  |
+| Sepal_Width  | -0.10936924995064935 | 1.0                  | -0.42051609640115484 | -0.3565440896138055 |
+| Petal_Length | 0.8717541573048719   | -0.42051609640115484 | 1.0                  | 0.9627570970509667  |
+| Petal_Width  | 0.8179536333691635   | -0.3565440896138055  | 0.9627570970509667   | 1.0                 |
+
+| Class           | Sepal_Length | Sepal_Width | Petal_Length | Petal_Width |
+| --------------- | ------------ | ----------- | ------------ | ----------- |
+| Iris-setosa     | 50           | 50          | 50           | 50          |
+| Iris-versicolor | 50           | 50          | 50           | 50          |
+| Iris-virginica  | 50           | 50          | 50           | 50          |
+
+
+
+
