@@ -94,7 +94,7 @@ Correlation measures the extent to which there is a correlation, causal or not, 
 # Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
 
-./plots/boxplots_species
+<img width="1200" height="800" src="plots/boxplots_species.png">
 
 
 
