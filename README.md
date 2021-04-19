@@ -8,17 +8,15 @@
  
 
 # Introduction 
-
 This project is in fulfillment of the course requirements for GMIT Programming and Scripting 2021, a module of the HDip in Data Analytics.  
 
-## The objectives of the project are as follows: 
-Provide an overview of the Fishers Iris Dataset in the context of its significance to statistical analysis, particularly for statistical classification and machine learning. 
-Using Python and associated libraries write a program to generate a complete analysis of the data set in both tabular and graphical forms.  
-Based on the results of the analysis make observations of the significance of the results. 
-utput the results to a project analysis document and make all project related documents available on my GitHub repository, https://github.com/donneger/pands-project2021.git. 
+# Project Objectives
+1. Provide an overview of the Fishers Iris Dataset in the context of its significance to statistical analysis, particularly for statistical classification and machine learning. 
+2. Using Python and associated libraries write a program to generate a complete analysis of the data set in both tabular and graphical forms.  
+3. Based on the results of the analysis make observations of the significance of the results. 
+4. Outpput the results to a project analysis document and make all project related documents available on my GitHub repository.
 
 # Background and Description of the Dataset
-
 The Iris flower dataset is also known as the Fisher’s Iris dataset. As a Fellow of the Royal Society, Sir Ronald Aylmer Fisher was born in 1890 in London, England, and was well-known as a statistician and geneticist. 
 In 1936, Fisher published a report titled “The Use of Multiple Measurements in Taxonomic Problems” in the journal Annals of Eugenics. In this article, Fisher developed and evaluated a linear function to differentiate Iris species based on the morphology of their flowers. It was the first time that the sepal and petal measures of the three Iris species, pictured below, appeared publicly.  
 
@@ -29,7 +27,6 @@ It is very clear that there is a significant body of information readily availab
 There are several areas that will be outside the scope of this project, including deep statistical analysis and machine learning as I would have insufficient depth of knowledge in these subject areas to make well informed observations.  
 
 # Approach Steps.  
-
 ## General research on the subject.  
 As described in the preceding paragraphs there are many sources of information available covering all aspects of analysis of the dataset.  
 
