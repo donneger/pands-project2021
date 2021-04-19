@@ -58,43 +58,43 @@ The following are used in the Python program to provide a numerical overview of 
 
 In each case the analysis is grouped by Iris class and by characteristic across the 4 measurements.  
 
-**Count**  
+**Count**
 classcount = irisdf.groupby('Class').count() 
 The dataset consists of 50 measurements across the 3 species for each of the Petal Length and Width and Sepal Length and width.  
 The output of this can be found in the table classcount.csv and confirms that the correct number of records are included in the dataset. 
 
 **Mean**
-
 classmean = irisdf.groupby('Class').mean() 
 This is the mathematical average of the measurements and can be found in the table 		classmean.csv.  
 On initial inspection it is clear that setosa petal length and width are significantly less than that 	of the other 2 species.  
 
-**Max**  
-
+**Max**
 classmax = irisdf.groupby('Class').max() 
 This is the maximum measurement for each of the measurement sets and can be found in the 	table classmax.csv.  
 For Setosa the maximum measurement of petal length and width are significantly less than that 	of the other 2 species.  
 
-**Min**  
-
+**Min**
 classmin = irisdf.groupby('Class').min() 
 This is the minimum measurement for each of the measurement sets and can be found in the 	table classmin.csv.  
 Like the analysis above the minimum measurement for setosa across petal length and width 	are significantly less that of the other 2 species.  
 
 **Median**
-
 classmedian = irisdf.groupby('Class').median() 
 The measures the value at which 50% of the records are above and 50% below this value. The 	details can be found in the classmedian.csv table. 	 
 
-**Standard Deviation**  
-
+**Standard Deviation**
 classstd = irisdf.groupby('Class').std() 
 The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range. 9 
 
-**Correlation** 
-
+**Correlation**
 classcor= irisdf.corr() 
 Correlation measures the extent to which there is a correlation, causal or not, between 2 	variables.  
 
 
-Graphical Analysis 
+# Graphical Analysis
+This program produces a number of plots to provide a more comprehensive visual overview of the data. 
+
+./plots/boxplots_species
+
+
+
