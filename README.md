@@ -41,6 +41,9 @@ The dataset itself is widely available, in this case I have used the dataset fro
 - Iris Versicolour 
 - Iris Virginica 
 
+<img width="1200" height="400" src="Images/irisimage.png">
+
+
 ## Python 
 This project utilises 4 Python libraries, namely: 
 
