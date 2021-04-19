@@ -86,6 +86,8 @@ The standard deviation is a measure of the amount of variation or dispersion of 
 classcor= irisdf.corr() 
 Correlation measures the extent to which there is a correlation, causal or not, between 2 	variables.  
 
+https://github.com/donneger/pands-project2021/blob/main/tables/classcorr.csv
+
 # Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
 
