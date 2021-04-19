@@ -69,6 +69,7 @@ print('\n2. Dataset MEAN. This table shows the mean of the characteristics group
 print('\n3. Dataset MAX. This table shows the max of the characteristics grouped by species in the dataset.\n',classmax)
 print('\n4. Dataset MIN. This table shows the min of the characteristics grouped by species in the dataset.\n',classmin)
 print('\n3. Dataset MED. This table shows the median of the characteristics grouped by species in the dataset.\n',classmedian)
+print('\n3. Dataset MED. This table shows the standard deviation of the characteristics grouped by species in the dataset.\n',classstd)
 print('\n3. Dataset Coorelation. This table shows the pairwuse correlation of the characteristics grouped by species in the dataset.\n',classcor)
 
 
