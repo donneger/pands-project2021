@@ -120,3 +120,6 @@ This program produces a number of plots to provide a more comprehensive visual o
 <img width="900" height="300" src="plots/regression_Sepal_length_width.png">
 
 <img width="900" height="300" src="plots/regression_width_Petal_Sepal.png">
+
+# References
+
