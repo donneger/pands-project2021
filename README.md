@@ -1,8 +1,8 @@
-An Investigation into Fishers Iris Data set utilising Python.  
+						An Investigation into Fishers Iris Data set utilising Python.  
 
-GMIT - Programming and Scripting 2021 
+							GMIT - Programming and Scripting 2021 
 
-Author: Gerard Donnelly 
+								Author: Gerard Donnelly 
 
  
 
@@ -11,14 +11,10 @@ Introduction
 This project is in fulfillment of the course requirements for GMIT Programming and Scripting 2021, a module of the HDip in Data Analytics.  
 
 The objectives of the project are as follows: 
-
 Provide an overview of the Fishers Iris Dataset in the context of its significance to statistical analysis, particularly for statistical classification and machine learning. 
-
 Using Python and associated libraries write a program to generate a complete analysis of the data set in both tabular and graphical forms.  
-
 Based on the results of the analysis make observations of the significance of the results. 
-
-Output the results to a project analysis document and make all project related documents available on my GitHub repository, https://github.com/donneger/pands-project2021.git. 
+utput the results to a project analysis document and make all project related documents available on my GitHub repository, https://github.com/donneger/pands-project2021.git. 
 
  
 
