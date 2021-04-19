@@ -26,33 +26,20 @@ It is very clear that there is a significant body of information readily availab
 
 There are several areas that will be outside the scope of this project, including deep statistical analysis and machine learning as I would have insufficient depth of knowledge in these subject areas to make well informed observations.  
 
-# Approach Steps.  
+# Project Approach
 ## General research on the subject.  
 As described in the preceding paragraphs there are many sources of information available covering all aspects of analysis of the dataset.  
 
 The dataset itself is widely available, in this case I have used the dataset from https://archive.ics.uci.edu/ml/datasets/iris. This dataset consists of 5 columns and 150 rows across the 3 iris species in a csv format.  
 
 1. sepal length in cm 
-
 2. sepal width in cm 
-
 3. petal length in cm 
-
 4. petal width in cm 
-
 5. class: 
-
-Iris Setosa 
-
-Iris Versicolour 
-
-Iris Virginica 
-
- 
-
- 
-
- 
+- Iris Setosa 
+- Iris Versicolour 
+- Iris Virginica 
 
 Python 
 
