@@ -96,19 +96,19 @@ This program produces a number of plots to provide a more comprehensive visual o
 
 <img width="1200" height="800" src="plots/boxplots_species.png">
 
-<img width="1200" height="800" src="plots/histcompare_petalL_petalW.png">
+<img width="946" height="800" src="plots/histcompare_petalL_petalW.png">
 
-<img width="1200" height="800" src="plots/histcompare_sepalL_sepalW.png">
+<img width="946" height="800" src="plots/histcompare_sepalL_sepalW.png">
 
-<img width="1200" height="800" src="plots/histpetalLen_species.png">
+<img width="900" height="300" src="plots/histpetalLen_species.png">
 
-<img width="1200" height="800" src="plots/histpetalWid_species.png">
+<img width="900" height="300" src="plots/histpetalWid_species.png">
 
-<img width="1200" height="800" src="plots/histsepalLen_species.png">
+<img width="900" height="300" src="plots/histsepalLen_species.png">
 
-<img width="1200" height="800" src="plots/histsepalWid_species.png">
+<img width="900" height="300" src="plots/histsepalWid_species.png">
 
-<img width="1200" height="800" src="plots/irispairplot.png">
+<img width="946" height="800" src="plots/irispairplot.png">
 
 <img width="1500" height="500" src="plots/regression_length_Petal_Sepal.png">
 
