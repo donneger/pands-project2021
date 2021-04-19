@@ -1,12 +1,5 @@
-						An Investigation into Fishers Iris Data set utilising Python.  
-
-							GMIT - Programming and Scripting 2021 
-
-								  Author: Gerard Donnelly
-								         April 2021
-
- 
-
+# An Investigation into Fishers Iris Data set utilising Python.  
+					
 # Introduction 
 This project is in fulfillment of the course requirements for GMIT Programming and Scripting 2021, a module of the HDip in Data Analytics.  
 
@@ -93,15 +86,14 @@ The standard deviation is a measure of the amount of variation or dispersion of 
 classcor= irisdf.corr() 
 Correlation measures the extent to which there is a correlation, causal or not, between 2 	variables.  
 
-
 # Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
 
 <img width="1200" height="800" src="plots/boxplots_species.png">
 
-<img width="946" height="800" src="plots/histcompare_petalL_petalW.png">
+<img width="946" height="500" src="plots/histcompare_petalL_petalW.png">
 
-<img width="946" height="800" src="plots/histcompare_sepalL_sepalW.png">
+<img width="946" height="500" src="plots/histcompare_sepalL_sepalW.png">
 
 <img width="900" height="300" src="plots/histpetalLen_species.png">
 
