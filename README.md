@@ -117,3 +117,19 @@ This program produces a number of plots to provide a more comprehensive visual o
 
 # References
 
+|              | Sepal_Length         | Sepal_Width          | Petal_Length         | Petal_Width         |
+| ------------ | -------------------- | -------------------- | -------------------- | ------------------- |
+| Sepal_Length | 1.0                  | -0.10936924995064935 | 0.8717541573048719   | 0.8179536333691635  |
+| Sepal_Width  | -0.10936924995064935 | 1.0                  | -0.42051609640115484 | -0.3565440896138055 |
+| Petal_Length | 0.8717541573048719   | -0.42051609640115484 | 1.0                  | 0.9627570970509667  |
+| Petal_Width  | 0.8179536333691635   | -0.3565440896138055  | 0.9627570970509667   | 1.0                 |
+
+| Class           | Sepal_Length | Sepal_Width | Petal_Length | Petal_Width |
+| --------------- | ------------ | ----------- | ------------ | ----------- |
+| Iris-setosa     | 50           | 50          | 50           | 50          |
+| Iris-versicolor | 50           | 50          | 50           | 50          |
+| Iris-virginica  | 50           | 50          | 50           | 50          |
+
+
+
+
