@@ -2,7 +2,8 @@
 
 							GMIT - Programming and Scripting 2021 
 
-								Author: Gerard Donnelly 
+								  Author: Gerard Donnelly
+								         April 2021
 
  
 
@@ -10,36 +11,26 @@
 
 This project is in fulfillment of the course requirements for GMIT Programming and Scripting 2021, a module of the HDip in Data Analytics.  
 
-The objectives of the project are as follows: 
+## The objectives of the project are as follows: 
 Provide an overview of the Fishers Iris Dataset in the context of its significance to statistical analysis, particularly for statistical classification and machine learning. 
 Using Python and associated libraries write a program to generate a complete analysis of the data set in both tabular and graphical forms.  
 Based on the results of the analysis make observations of the significance of the results. 
 utput the results to a project analysis document and make all project related documents available on my GitHub repository, https://github.com/donneger/pands-project2021.git. 
 
- 
-
-Background and Description of the Dataset1 
+# Background and Description of the Dataset
 
 The Iris flower dataset is also known as the Fisher’s Iris dataset. As a Fellow of the Royal Society, Sir Ronald Aylmer Fisher was born in 1890 in London, England, and was well-known as a statistician and geneticist. 
-
 In 1936, Fisher published a report titled “The Use of Multiple Measurements in Taxonomic Problems” in the journal Annals of Eugenics. In this article, Fisher developed and evaluated a linear function to differentiate Iris species based on the morphology of their flowers. It was the first time that the sepal and petal measures of the three Iris species, pictured below, appeared publicly.  
 
- 
-
- 
-
- The Iris Dataset 2contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Sepals typically act as protection or support for the flower. Petals are often brightly colored and provide clues as to a plant's classification. These measures, 150 in total across the three species, were used to create a linear model to classify the species. The dataset is often used in data mining, classification, and clustering examples and to test algorithms and is perhaps the best-known database to be found in the pattern recognition literature.3 
-
-4 
+The Iris Dataset contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Sepals typically act as protection or support for the flower. Petals are often brightly colored and provide clues as to a plant's classification. These measures, 150 in total across the three species, were used to create a linear model to classify the species. The dataset is often used in data mining, classification, and clustering examples and to test algorithms and is perhaps the best-known database to be found in the pattern recognition literature.3 
 
 It is very clear that there is a significant body of information readily available across the internet relating to this dataset and associated analyses. The goal with this project is to carry out an analysis using generally accepted statistical and plotting techniques and analyses using Python and to validate the findings against the already existing results.   
 
 There are several areas that will be outside the scope of this project, including deep statistical analysis and machine learning as I would have insufficient depth of knowledge in these subject areas to make well informed observations.  
 
-Approach Steps.  
+# Approach Steps.  
 
-General research on the subject.  
-
+## General research on the subject.  
 As described in the preceding paragraphs there are many sources of information available covering all aspects of analysis of the dataset.  
 
 The dataset itself is widely available, in this case I have used the dataset from https://archive.ics.uci.edu/ml/datasets/iris. This dataset consists of 5 columns and 150 rows across the 3 iris species in a csv format.  
