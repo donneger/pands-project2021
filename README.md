@@ -110,10 +110,10 @@ This program produces a number of plots to provide a more comprehensive visual o
 
 <img width="946" height="800" src="plots/irispairplot.png">
 
-<img width="1500" height="500" src="plots/regression_length_Petal_Sepal.png">
+<img width="900" height="300" src="plots/regression_length_Petal_Sepal.png">
 
-<img width="1500" height="500" src="plots/regression_Petal_length_width.png">
+<img width="900" height="300" src="plots/regression_Petal_length_width.png">
 
-<img width="1500" height="500" src="plots/regression_Sepal_length_width.png">
+<img width="900" height="300" src="plots/regression_Sepal_length_width.png">
 
-<img width="1500" height=500" src="plots/regression_width_Petal_Sepal.png">
+<img width="900" height="300" src="plots/regression_width_Petal_Sepal.png">
