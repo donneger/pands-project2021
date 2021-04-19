@@ -41,92 +41,60 @@ The dataset itself is widely available, in this case I have used the dataset fro
 - Iris Versicolour 
 - Iris Virginica 
 
-Python 
-
+## Python 
 This project utilises 4 Python libraries, namely: 
 
-Pandas.5  This is a powerful and flexible Python package that allows you to work with labeled and time series data. It also provides statistics methods, enables plotting, and more. One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other types of files. 
+- Pandas. This is a powerful and flexible Python package that allows you to work with labeled and time series data. It also provides statistics methods, enables plotting, and more. One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other types of files. 
 
-Numpy. 6 NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more. 
+- Numpy. This is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more. 
 
-Matplotlib7 is a powerful library that allows for creation of many types of plots and used in conjunction with Pandas allows for data series or dataframes to be plotted in many ways.  
+- Matplotlib. This is a powerful library that allows for creation of many types of plots and used in conjunction with Pandas allows for data series or dataframes to be plotted in many ways.  
 
-Seaborn.8 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. 
+- Seaborn. This is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. 
 
- 
-
-Statistical Analysis 
+#Statistical Analysis 
 
 The following are used in the Python program to provide a numerical overview of the data set and are assigned the following variables.  
 
 In each case the analysis is grouped by Iris class and by characteristic across the 4 measurements.  
 
-Count  
-
+**Count**  
 classcount = irisdf.groupby('Class').count() 
-
 The dataset consists of 50 measurements across the 3 species for each of the Petal Length and Width and Sepal Length and width.  
-
 The output of this can be found in the table classcount.csv and confirms that the correct number of records are included in the dataset. 
 
- 
-
-Mean  
+**Mean**
 
 classmean = irisdf.groupby('Class').mean() 
-
 This is the mathematical average of the measurements and can be found in the table 		classmean.csv.  
-
 On initial inspection it is clear that setosa petal length and width are significantly less than that 	of the other 2 species.  
 
- 
-
-Max  
+**Max**  
 
 classmax = irisdf.groupby('Class').max() 
-
 This is the maximum measurement for each of the measurement sets and can be found in the 	table classmax.csv.  
-
 For Setosa the maximum measurement of petal length and width are significantly less than that 	of the other 2 species.  
 
- 
-
-Min  
+**Min**  
 
 classmin = irisdf.groupby('Class').min() 
-
 This is the minimum measurement for each of the measurement sets and can be found in the 	table classmin.csv.  
-
 Like the analysis above the minimum measurement for setosa across petal length and width 	are significantly less that of the other 2 species.  
 
- 
-
- 
-
-Median  
+**Median**
 
 classmedian = irisdf.groupby('Class').median() 
-
 The measures the value at which 50% of the records are above and 50% below this value. The 	details can be found in the classmedian.csv table. 	 
 
-	 
-
-Standard Deviation  
+**Standard Deviation**  
 
 classstd = irisdf.groupby('Class').std() 
-
 The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range. 9 
 
-	 
-
-Correlation 
+**Correlation** 
 
 classcor= irisdf.corr() 
-
 Correlation measures the extent to which there is a correlation, causal or not, between 2 	variables.  
 
- 
-
- 
 
 Graphical Analysis 
