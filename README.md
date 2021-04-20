@@ -55,7 +55,7 @@ The following are used in the Python program to provide a numerical overview of 
 In each case the analysis is grouped by Iris class and by characteristic across the 4 measurements. All of the tables shown below can be found in the **tables folder** of this project. 
 
 ### **Summary Data**
-datasummary = (irisdf.describe()).transpose().round(4)
+`datasummary = (irisdf.describe()).transpose().round(4)`
 This table provides a summary of the dataset, showing total number of datapoints, overall mean, standard deviation, minimum, maximum, median(50%) as well as the 25% and 75% percentiles. 
 
 _**Table: datasummary.csv**_
@@ -212,6 +212,7 @@ _**Table: classcorr.csv**_
 
 ## Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
+
 
 <img width="1200" height="800" src="plots/boxplots_species.png">
 
