@@ -236,14 +236,16 @@ The following plots utilise Histograms to display the dataset characteristics. A
 <img width="900" height="300" src="plots/histsepalWid_species.png">
 
 ### Pairs Plots
-The pairs plot below is a method of visualising each characteristic against each other one across the three species. There are 2 pypes of plots used here:
+The _pairs plot_ below is a method of visualising each characteristic individually and against each other one across the three species. There are 2 pypes of plots used here:
 - Distribution Plots: The diagonal plots show the distribution of results for each of the characteristics
 - Scatter Plots: These show how the ranges of results for each characteristic compared against each other characteristic. 
 
 <img width="946" height="800" src="plots/irispairplot.png">
 
 
-_**Correlation Plots**_
+### Correlation Plots
+The _correlation plots_ show where there may be a relationship between 2 variables, e.g. as x increases y also increases for positive correlation. Where there are clear correlations this data can be used to make predicitons, i.e. given a value of x we can predict a value of y to a degree of accuracy based on how well the values are correlated. 
+
 <img width="900" height="300" src="plots/regression_length_Petal_Sepal.png">
 
 <img width="900" height="300" src="plots/regression_Petal_length_width.png">
