@@ -274,8 +274,6 @@ The _correlation plots_ show where there may be a relationship between 2 variabl
 17. https://towardsdatascience.com/visualizing-data-with-pair-plots-in-python-f228cf529166
 18. https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
 19. https://csvtomd.com/#/
-20. 
-
 
 
 
