@@ -48,45 +48,67 @@ This project utilises 4 Python libraries, namely:
 
 - Seaborn. This is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. 
 
-#Statistical Analysis 
+## Statistical Analysis 
 
 The following are used in the Python program to provide a numerical overview of the data set and are assigned the following variables.  
 
 In each case the analysis is grouped by Iris class and by characteristic across the 4 measurements.  
 
 **Count**
+
 classcount = irisdf.groupby('Class').count() 
 The dataset consists of 50 measurements across the 3 species for each of the Petal Length and Width and Sepal Length and width.  
 The output of this can be found in the table classcount.csv and confirms that the correct number of records are included in the dataset. 
 
+Table: classcount.csv
+| Class           | Sepal_Length | Sepal_Width | Petal_Length | Petal_Width |
+| --------------- | ------------ | ----------- | ------------ | ----------- |
+| Iris-setosa     | 50           | 50          | 50           | 50          |
+| Iris-versicolor | 50           | 50          | 50           | 50          |
+| Iris-virginica  | 50           | 50          | 50           | 50          |
+
+
 **Mean**
+
 classmean = irisdf.groupby('Class').mean() 
-This is the mathematical average of the measurements and can be found in the table 		classmean.csv.  
-On initial inspection it is clear that setosa petal length and width are significantly less than that 	of the other 2 species.  
+This is the mathematical average of the measurements and can be found in the table classmean.csv.  
+On initial inspection it is clear that setosa petal length and width are significantly less than that of the other 2 species.  
+
+Table: classmean.csv
+| Class           | Sepal_Length | Sepal_Width | Petal_Length | Petal_Width |
+| --------------- | ------------ | ----------- | ------------ | ----------- |
+| Iris-setosa     | 5.006        | 3.418       | 1.464        | 0.244       |
+| Iris-versicolor | 5.936        | 2.77        | 4.26         | 1.326       |
+| Iris-virginica  | 6.588        | 2.974       | 5.552        | 2.026       |
+
 
 **Max**
+
 classmax = irisdf.groupby('Class').max() 
-This is the maximum measurement for each of the measurement sets and can be found in the 	table classmax.csv.  
-For Setosa the maximum measurement of petal length and width are significantly less than that 	of the other 2 species.  
+This is the maximum measurement for each of the measurement sets and can be found in the table classmax.csv.  
+For Setosa the maximum measurement of petal length and width are significantly less than thatof the other 2 species.  
 
 **Min**
+
 classmin = irisdf.groupby('Class').min() 
-This is the minimum measurement for each of the measurement sets and can be found in the 	table classmin.csv.  
-Like the analysis above the minimum measurement for setosa across petal length and width 	are significantly less that of the other 2 species.  
+This is the minimum measurement for each of the measurement sets and can be found in the table classmin.csv.  
+Like the analysis above the minimum measurement for setosa across petal length and width are significantly less that of the other 2 species.  
 
 **Median**
+
 classmedian = irisdf.groupby('Class').median() 
-The measures the value at which 50% of the records are above and 50% below this value. The 	details can be found in the classmedian.csv table. 	 
+The measures the value at which 50% of the records are above and 50% below this value. The details can be found in the classmedian.csv table. 	 
 
 **Standard Deviation**
+
 classstd = irisdf.groupby('Class').std() 
-The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range. 9 
+The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range.  
 
 **Correlation**
+
 classcor= irisdf.corr() 
 Correlation measures the extent to which there is a correlation, causal or not, between 2 	variables.  
 
-https://github.com/donneger/pands-project2021/blob/main/tables/classcorr.csv
 
 # Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
@@ -117,18 +139,9 @@ This program produces a number of plots to provide a more comprehensive visual o
 
 # References
 
-|              | Sepal_Length         | Sepal_Width          | Petal_Length         | Petal_Width         |
-| ------------ | -------------------- | -------------------- | -------------------- | ------------------- |
-| Sepal_Length | 1.0                  | -0.10936924995064935 | 0.8717541573048719   | 0.8179536333691635  |
-| Sepal_Width  | -0.10936924995064935 | 1.0                  | -0.42051609640115484 | -0.3565440896138055 |
-| Petal_Length | 0.8717541573048719   | -0.42051609640115484 | 1.0                  | 0.9627570970509667  |
-| Petal_Width  | 0.8179536333691635   | -0.3565440896138055  | 0.9627570970509667   | 1.0                 |
 
-| Class           | Sepal_Length | Sepal_Width | Petal_Length | Petal_Width |
-| --------------- | ------------ | ----------- | ------------ | ----------- |
-| Iris-setosa     | 50           | 50          | 50           | 50          |
-| Iris-versicolor | 50           | 50          | 50           | 50          |
-| Iris-virginica  | 50           | 50          | 50           | 50          |
+
+
 
 
 
