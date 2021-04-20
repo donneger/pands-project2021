@@ -9,6 +9,10 @@ This project is in fulfillment of the course requirements for GMIT Programming a
 3. Based on the results of the analysis make observations of the significance of the results. 
 4. Outpput the results to a project analysis document and make all project related documents available on my GitHub repository.
 
+# The Python Program
+## Instructions for Running the Program. 
+All of the code for the project is stored in the program 
+
 # Background and Description of the Dataset
 The Iris flower dataset is also known as the Fisher’s Iris dataset. As a Fellow of the Royal Society, Sir Ronald Aylmer Fisher was born in 1890 in London, England, and was well-known as a statistician and geneticist. 
 In 1936, Fisher published a report titled “The Use of Multiple Measurements in Taxonomic Problems” in the journal Annals of Eugenics. In this article, Fisher developed and evaluated a linear function to differentiate Iris species based on the morphology of their flowers. It was the first time that the sepal and petal measures of the three Iris species, pictured below, appeared publicly.  
