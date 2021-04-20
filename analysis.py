@@ -153,3 +153,5 @@ plt.savefig(r'plots/regression_length_Petal_Sepal.png')
 # Regression Petal W vs Sepal W
 sns.lmplot(x="Petal_Width", y="Sepal_Width", col="Class", hue="Class", data=irisdf)
 plt.savefig(r'plots/regression_width_Petal_Sepal.png')
+
+print("The program has completed successfully. All of the tables have been stored in the Tables folder and the plots in the Plots folder. Thank you.")
