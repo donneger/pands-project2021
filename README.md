@@ -54,7 +54,7 @@ The following are used in the Python program to provide a numerical overview of 
 
 In each case the analysis is grouped by Iris class and by characteristic across the 4 measurements. All of the tables shown below can be found in the **tables folder** of this project. 
 
-###**Summary Data**###
+### **Summary Data**
 datasummary = (irisdf.describe()).transpose().round(4)
 This table provides a summary of the dataset, showing total number of datapoints, overall mean, standard deviation, minimum, maximum, median(50%) as well as the 25% and 75% percentiles. 
 
@@ -69,7 +69,7 @@ __Table: datasummary.csv__
 
 
 
-**Head**
+### **Head**
 datahead = (irisdf.head(5))
 This table displays the individual dataset details for the first 5 rows. 
 
@@ -85,7 +85,7 @@ __Table: datahead.csv__
 
 
 
-**Tail**
+### **Tail**
 This table displays the last 5 rows of the dataset. 
 
 __Table: datatail.csv__
@@ -101,8 +101,8 @@ __Table: datatail.csv__
 
 
 
-**Count:**
- classcount = irisdf.groupby('Class').count() 
+### **Count:**
+classcount = irisdf.groupby('Class').count() 
 The dataset consists of 50 measurements across the 3 species for each of the Petal Length and Width and Sepal Length and width.  
 The output of this can be found in the table classcount.csv and confirms that the correct number of records are included in the dataset. 
 
@@ -116,8 +116,8 @@ __Table: classcount.csv__
 
 
 
-**Mean:**
- classmean = irisdf.groupby('Class').mean() 
+### **Mean**
+classssmean = irisdf.groupby('Class').mean() 
 This is the mathematical average of the measurements and can be found in the table classmean.csv.  
 On initial inspection it is clear that setosa petal length and width are significantly less than that of the other 2 species.  
 
@@ -132,7 +132,7 @@ __Table: classmean.csv__
 
 
 
-**Max**
+### **Max**
 classmax = irisdf.groupby('Class').max() 
 This is the maximum measurement for each of the measurement sets and can be found in the table classmax.csv.  
 For Setosa the maximum measurement of petal length and width are significantly less than thatof the other 2 species.  
@@ -149,7 +149,7 @@ __Table: classmax.csv__
 
 
 
-**Min**
+### **Min**
 classmin = irisdf.groupby('Class').min() 
 This is the minimum measurement for each of the measurement sets and can be found in the table classmin.csv.  
 Like the analysis above the minimum measurement for setosa across petal length and width are significantly less that of the other 2 species.
@@ -166,7 +166,7 @@ __Table: classmin.csv__
 
 
 
-**Median**
+### **Median**
 classmedian = irisdf.groupby('Class').median() 
 The measures the value at which 50% of the records are above and 50% below this value. The details can be found in the classmedian.csv table. 	 
 
@@ -181,7 +181,7 @@ __Table:classmedian.csv__
 
 
 
-**Standard Deviation**
+### **Standard Deviation**
 classstd = irisdf.groupby('Class').std() 
 The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range.  
 
@@ -196,7 +196,7 @@ __Table: Standard Deviation__
 
 
 
-**Correlation**
+### **Correlation**
 classcor= irisdf.corr() 
 Correlation measures the extent to which there is a correlation, causal or not, between 2 	variables.  
 
