@@ -55,7 +55,7 @@ The following are used in the Python program to provide a numerical overview of 
 In each case the analysis is grouped by Iris class and by characteristic across the 4 measurements. All of the tables shown below can be found in the **tables folder** of this project. 
 
 ### **Summary Data**
-`datasummary = (irisdf.describe()).transpose().round(4)`
+datasummary = (irisdf.describe()).transpose().round(4)
 This table provides a summary of the dataset, showing total number of datapoints, overall mean, standard deviation, minimum, maximum, median(50%) as well as the 25% and 75% percentiles. 
 
 _**Table: datasummary.csv**_
@@ -213,13 +213,16 @@ _**Table: classcorr.csv**_
 ## Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
 
-
+_**Boxplots**_
 <img width="1200" height="800" src="plots/boxplots_species.png">
 
+_**Histogram Plots**_
 <img width="946" height="500" src="plots/histcompare_petalL_petalW.png">
 
 <img width="946" height="500" src="plots/histcompare_sepalL_sepalW.png">
 
+
+_**Histogram Plots**_
 <img width="900" height="300" src="plots/histpetalLen_species.png">
 
 <img width="900" height="300" src="plots/histpetalWid_species.png">
@@ -228,8 +231,11 @@ This program produces a number of plots to provide a more comprehensive visual o
 
 <img width="900" height="300" src="plots/histsepalWid_species.png">
 
+_**Overall Pairs Plots**_
 <img width="946" height="800" src="plots/irispairplot.png">
 
+
+_**Correlation Plots**_
 <img width="900" height="300" src="plots/regression_length_Petal_Sepal.png">
 
 <img width="900" height="300" src="plots/regression_Petal_length_width.png">
