@@ -11,7 +11,19 @@ This project is in fulfillment of the course requirements for GMIT Programming a
 
 # The Python Program
 ## Instructions for Running the Program. 
-All of the code for the project is stored in the program 
+All of the code for the project is stored in the program `analysis.py`.
+
+1. To run the program Python must be installed on the PC, instructions can be found here https://realpython.com/installing-python/ if not already installed. 
+2. The program can be downloaded from this repository. In the folder where the analysis.py prgram is stored on the PC create 2 additional folders:
+- Tables. This is used to store the .csv outputs from the program. 
+- Plots. This is used to store the plots created by the program, all of these are stored as .png files. 
+3. Download the iris data set and store in the Tables folder as `irisdata.csv`. This dataset can be downloaded from https://archive.ics.uci.edu/ml/datasets/iris.
+4. Run the program. 
+5. The program will read the irisdata.csv file and will complete the following actions:
+- Output a set of tables to the terminal screen describing the data as outlined below in the section **Summary Data**.
+- The Tables produced are also stored in the _Tables_ folder.
+- A complete set of statistical plots describing the data are also produced, these are not made visible on screen but are stored in the _Plots_ folder for viewing. 
+6. The program will automatically halt on completion, no user interaction is required. 
 
 # Background and Description of the Dataset
 The Iris flower dataset is also known as the Fisher’s Iris dataset. As a Fellow of the Royal Society, Sir Ronald Aylmer Fisher was born in 1890 in London, England, and was well-known as a statistician and geneticist. 
