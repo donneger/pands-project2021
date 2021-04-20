@@ -22,7 +22,7 @@ All of the code for the project is stored in the program `analysis.py`.
 5. The program will read the irisdata.csv file and will complete the following actions:
 - Output a set of tables to the terminal screen describing the data as outlined below in the section **Summary Data**.
 - The Tables produced are also stored in the _Tables_ folder.
-- A complete set of statistical plots describing the data are also produced, these are not made visible on screen but are stored in the _Plots_ folder for viewing. 
+- A complete set of statistical plots describing the data are also produced, these are not made visible on screen but are stored in the _Plots_ folder for viewing. These are all  shown below in the section **Graphical Analysis**.
 6. The program will automatically halt on completion, no user interaction is required. 
 
 # Background and Description of the Dataset
