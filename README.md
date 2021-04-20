@@ -34,19 +34,19 @@ The dataset itself is widely available, in this case I have used the dataset fro
 - Iris Versicolour 
 - Iris Virginica 
 
-<img width="1200" height="400" src="Images/irisimage.png">
+<img width="1200" height="300" src="Images/irisimage.png">
 
 
 ## Python 
 This project utilises 4 Python libraries, namely: 
 
-- Pandas. This is a powerful and flexible Python package that allows you to work with labeled and time series data. It also provides statistics methods, enables plotting, and more. One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other types of files. 
+- **Pandas.** This is a powerful and flexible Python package that allows you to work with labeled and time series data. It also provides statistics methods, enables plotting, and more. One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other types of files. 
 
-- Numpy. This is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more. 
+- **Numpy.** This is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more. 
 
-- Matplotlib. This is a powerful library that allows for creation of many types of plots and used in conjunction with Pandas allows for data series or dataframes to be plotted in many ways.  
+- **Matplotlib.** This is a powerful library that allows for creation of many types of plots and used in conjunction with Pandas allows for data series or dataframes to be plotted in many ways.  
 
-- Seaborn. This is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. 
+- **Seaborn.** This is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. 
 
 ## Statistical Analysis 
 
@@ -54,7 +54,7 @@ The following are used in the Python program to provide a numerical overview of 
 
 In each case the analysis is grouped by Iris class and by characteristic across the 4 measurements. All of the tables shown below can be found in the **tables folder** of this project. 
 
-**Summary Data**
+###**Summary Data**###
 datasummary = (irisdf.describe()).transpose().round(4)
 This table provides a summary of the dataset, showing total number of datapoints, overall mean, standard deviation, minimum, maximum, median(50%) as well as the 25% and 75% percentiles. 
 
