@@ -17,7 +17,7 @@ The Iris Dataset contains four features (length and width of sepals and petals) 
 
 It is very clear that there is a significant body of information readily available across the internet relating to this dataset and associated analyses. The goal with this project is to carry out an analysis using generally accepted statistical and plotting techniques and analyses using Python and to validate the findings against the already existing results.   
 
-There are several areas that will be outside the scope of this project, including deep statistical analysis and machine learning as I would have insufficient depth of knowledge in these subject areas to make well informed observations.  
+There are several areas that will be outside the scope of this project, including deep statistical analysis and machine learning as I would have insufficient depth of knowledge in these subject areas to make well informed observations. I do note however that this dataset is regarded as the **"hello world"** of machine learning.  
 
 # Project Approach
 ## General research on the subject.  
@@ -213,16 +213,20 @@ _**Table: classcorr.csv**_
 ## Graphical Analysis
 This program produces a number of plots to provide a more comprehensive visual overview of the data. 
 
-_**Boxplots**_
+### Boxplots
+A _boxplot_ is highly visual method of displaying the distribution of data based on the five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”). These have been quantified in the tabels above. It can show the dataset outliers and what their values are. It can also tell you if your data is symmetrical, how tightly your data is grouped, and if and how your data is skewed.
+
+It is clear from the boxplots below that the setosa results are significantly different across the 4 characteristics but that versicolor and virginica are also differentiated. 
+
 <img width="1200" height="800" src="plots/boxplots_species.png">
 
-_**Histogram Plots**_
+### Histogram Plots
+The following plots utilise Histograms to display the dataset characteristics. A _histogram_ groups the results into ranges and displays these as vertical (or horizontal) bars. 
+
 <img width="946" height="500" src="plots/histcompare_petalL_petalW.png">
 
 <img width="946" height="500" src="plots/histcompare_sepalL_sepalW.png">
 
-
-_**Histogram Plots**_
 <img width="900" height="300" src="plots/histpetalLen_species.png">
 
 <img width="900" height="300" src="plots/histpetalWid_species.png">
@@ -231,7 +235,11 @@ _**Histogram Plots**_
 
 <img width="900" height="300" src="plots/histsepalWid_species.png">
 
-_**Overall Pairs Plots**_
+### Pairs Plots
+The pairs plot below is a method of visualising each characteristic against each other one across the three species. There are 2 pypes of plots used here:
+- Distribution Plots: The diagonal plots show the distribution of results for each of the characteristics
+- Scatter Plots: These show how the ranges of results for each characteristic compared against each other characteristic. 
+
 <img width="946" height="800" src="plots/irispairplot.png">
 
 
