@@ -254,8 +254,27 @@ The _correlation plots_ show where there may be a relationship between 2 variabl
 
 <img width="900" height="300" src="plots/regression_width_Petal_Sepal.png">
 
-## References
-
+## References and sources used. 
+1. https://pandas.pydata.org/docs/user_guide/index.html
+2. https://matplotlib.org/stable/tutorials/index.html
+3. https://seaborn.pydata.org/tutorial.html
+4. https://numpy.org/doc/stable/user/absolute_beginners.html
+5. https://archive.ics.uci.edu/ml/datasets/iris
+6. https://dev.to/thalesbruno/subplotting-with-matplotlib-and-seaborn-5ei8
+7. https://seaborn.pydata.org/generated/seaborn.lmplot.html
+8. https://seaborn.pydata.org/generated/seaborn.lmplot.html
+9. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html
+10. https://realpython.com/pandas-python-explore-dataset/
+11. https://www.w3schools.com/python/python_ml_mean_median_mode.asp
+12. https://www.w3schools.com/python/python_ml_standard_deviation.asp
+13. https://www.w3schools.com/python/python_ml_scatterplot.asp
+14. https://www.w3schools.com/python/python_ml_linear_regression.asp
+15. https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51#:~:text=Boxplots%20are%20a%20standardized%20way,middle%20value%20of%20the%20dataset.
+16. https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+17. https://towardsdatascience.com/visualizing-data-with-pair-plots-in-python-f228cf529166
+18. https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
+19. https://csvtomd.com/#/
+20. 
 
 
 
